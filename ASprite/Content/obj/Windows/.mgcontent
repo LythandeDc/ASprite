@@ -4,8 +4,8 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/conta/Desktop/Programmes Antox/monogame/ASprite/ASprite/Content/vampire.png</File>
-    <File>C:/Users/conta/Desktop/Programmes Antox/monogame/ASprite/ASprite/Content/anims/walk-loop.gif</File>
-    <File>C:/Users/conta/Desktop/Programmes Antox/monogame/ASprite/ASprite/Content/dead.png</File>
+    <File>D:/Documents/DEV/Games/Monogame/ASprite/ASprite/Content/vampire.png</File>
+    <File>D:/Documents/DEV/Games/Monogame/ASprite/ASprite/Content/anims/walk-loop.gif</File>
+    <File>D:/Documents/DEV/Games/Monogame/ASprite/ASprite/Content/dead.png</File>
   </SourceFiles>
 </SourceFileCollection>

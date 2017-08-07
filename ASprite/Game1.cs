@@ -13,6 +13,7 @@ namespace ASprite
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         private Sprite _sprite1;
+        private AnimatedSprite animSprite;
 
         public Game1()
         {
@@ -43,6 +44,10 @@ namespace ASprite
             var texture = Content.Load<Texture2D>("dead");
             _sprite1 = new Sprite(texture);
             _sprite1.Position = new Vector2(50, 50);
+
+            Texture2D newtexture = Content.Load<Texture2D>("vampire");
+            animSprite = new AnimatedSprite(newtexture, 1, 16
+                );
         }
 
         /// <summary>
@@ -65,6 +70,7 @@ namespace ASprite
                 Exit();
 
             _sprite1.Update();
+            animSprite.Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -77,9 +83,10 @@ namespace ASprite
         {
             GraphicsDevice.Clear(Color.Black);
 
-            spriteBatch.Begin();
-            _sprite1.Draw(spriteBatch);
-            spriteBatch.End();
+            // spriteBatch.Begin();
+            // _sprite1.Draw(spriteBatch);
+            animSprite.Draw(spriteBatch, new Vector2(200, 200));
+            // spriteBatch.End();
 
             base.Draw(gameTime);
         }

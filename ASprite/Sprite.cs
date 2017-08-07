@@ -11,13 +11,13 @@ namespace ASprite
 {
     public class Sprite
     {
-        private Texture2D _texture; //  sprite texture 
+        private Texture2D Texture; //  sprite texture 
         public Vector2 Position; //  sprite position on screen
         public float Speed = 2f; // sprite speed
 
         public Sprite(Texture2D texture)
         {
-            _texture = texture;
+            Texture = texture;
         }
 
         public void Update()
@@ -55,7 +55,7 @@ namespace ASprite
         {
             // Adds a sprite to a batch of sprites for rendering using the specified texture, 
             // position, source rectangle, color, rotation, origin, scale, effects and layer.
-            spriteBatch.Draw(_texture, Position, Color.White);
+            spriteBatch.Draw(Texture, Position, Color.White);
         }
     }
 }

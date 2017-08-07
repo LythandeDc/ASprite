@@ -24,3 +24,29 @@ C:\Users\conta\Desktop\Programmes Antox\monogame\ASprite\ASprite\obj\x86\Debug\A
 C:\Users\conta\Desktop\Programmes Antox\monogame\ASprite\ASprite\bin\Windows\x86\Debug\Content\vampire.xnb
 C:\Users\conta\Desktop\Programmes Antox\monogame\ASprite\ASprite\bin\Windows\x86\Debug\Content\anims\walk-loop.xnb
 C:\Users\conta\Desktop\Programmes Antox\monogame\ASprite\ASprite\bin\Windows\x86\Debug\Content\dead.xnb
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\Content\dead.xnb
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\Content\vampire.xnb
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\Content\anims\walk-loop.xnb
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\ASprite.exe
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\ASprite.pdb
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.dll
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.xml
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\obj\x86\Debug\ASprite.csprojResolveAssemblyReference.cache
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\obj\x86\Debug\ASprite.exe
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\obj\x86\Debug\ASprite.pdb

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/conta/Desktop/Programmes Antox/monogame/ASprite/ASprite/Content/dead.png</SourceFile>
+  <SourceFile>D:/Documents/DEV/Games/Monogame/ASprite/ASprite/Content/dead.png</SourceFile>
   <SourceTime>2017-08-07T15:01:57.1208032+02:00</SourceTime>
-  <DestFile>C:/Users/conta/Desktop/Programmes Antox/monogame/ASprite/ASprite/Content/bin/Windows/dead.xnb</DestFile>
-  <DestTime>2017-08-07T15:02:08.5603909+02:00</DestTime>
+  <DestFile>D:/Documents/DEV/Games/Monogame/ASprite/ASprite/Content/bin/Windows/dead.xnb</DestFile>
+  <DestTime>2017-08-07T21:03:24.4894562+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
