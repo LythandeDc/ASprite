@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/conta/Desktop/Programmes Antox/monogame/ASprite/ASprite/Content/vampire.png</File>
+    <File>C:/Users/conta/Desktop/Programmes Antox/monogame/ASprite/ASprite/Content/anims/walk-loop.gif</File>
+    <File>C:/Users/conta/Desktop/Programmes Antox/monogame/ASprite/ASprite/Content/dead.png</File>
+  </SourceFiles>
+</SourceFileCollection>
