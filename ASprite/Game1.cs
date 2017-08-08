@@ -14,6 +14,11 @@ namespace ASprite
         SpriteBatch spriteBatch;
         private Sprite _sprite1;
         private AnimatedSprite animSprite;
+        Texture2D newtexture;
+        Texture2D up;
+        Texture2D right;
+        Texture2D left;
+        Texture2D down;
 
         public Game1()
         {
@@ -45,9 +50,13 @@ namespace ASprite
             _sprite1 = new Sprite(texture);
             _sprite1.Position = new Vector2(50, 50);
 
-            Texture2D newtexture = Content.Load<Texture2D>("vampire");
-            animSprite = new AnimatedSprite(newtexture, 1, 16
-                );
+            newtexture = Content.Load<Texture2D>("images/Down");
+            left = Content.Load<Texture2D>("images/Left");
+            right = Content.Load<Texture2D>("images/Right");
+            up = Content.Load<Texture2D>("images/Up");
+            down = Content.Load<Texture2D>("images/Down");
+
+            animSprite = new AnimatedSprite(newtexture, left, right, up, down, 1, 4);
         }
 
         /// <summary>
@@ -72,7 +81,13 @@ namespace ASprite
             _sprite1.Update();
             animSprite.Update(gameTime);
 
-            base.Update(gameTime);
+            if (Keyboard.GetState().IsKeyDown(Keys.Q) ||
+              Keyboard.GetState().IsKeyDown(Keys.Left))
+            {
+                newtexture = Content.Load<Texture2D>("images/Left");
+            }
+
+                base.Update(gameTime);
         }
 
         /// <summary>

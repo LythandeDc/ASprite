@@ -7,5 +7,9 @@
     <File>D:/Documents/DEV/Games/Monogame/ASprite/ASprite/Content/vampire.png</File>
     <File>D:/Documents/DEV/Games/Monogame/ASprite/ASprite/Content/anims/walk-loop.gif</File>
     <File>D:/Documents/DEV/Games/Monogame/ASprite/ASprite/Content/dead.png</File>
+    <File>D:/Documents/DEV/Games/Monogame/ASprite/ASprite/Content/images/Up.png</File>
+    <File>D:/Documents/DEV/Games/Monogame/ASprite/ASprite/Content/images/Down.png</File>
+    <File>D:/Documents/DEV/Games/Monogame/ASprite/ASprite/Content/images/Left.png</File>
+    <File>D:/Documents/DEV/Games/Monogame/ASprite/ASprite/Content/images/Right.png</File>
   </SourceFiles>
 </SourceFileCollection>

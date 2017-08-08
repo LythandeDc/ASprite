@@ -50,3 +50,7 @@ D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\SharpDX.Di
 D:\Documents\DEV\Games\Monogame\ASprite\ASprite\obj\x86\Debug\ASprite.csprojResolveAssemblyReference.cache
 D:\Documents\DEV\Games\Monogame\ASprite\ASprite\obj\x86\Debug\ASprite.exe
 D:\Documents\DEV\Games\Monogame\ASprite\ASprite\obj\x86\Debug\ASprite.pdb
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\Content\images\Down.xnb
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\Content\images\Left.xnb
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\Content\images\Right.xnb
+D:\Documents\DEV\Games\Monogame\ASprite\ASprite\bin\Windows\x86\Debug\Content\images\Up.xnb
