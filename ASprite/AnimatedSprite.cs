@@ -5,23 +5,25 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input;
 
 namespace ASprite
 {
-    class AnimatedSprite : Sprite
+    class AnimatedSprite
     {
         private Texture2D Texture { get; set; }  //  sprite texture 
         private int TotalFrames;
         private int CurrentFrame;
-        public Vector2 Position; //  sprite position on screen
-        public float Speed = 2f; // sprite speed
         public int Rows { get; set; }
         public int Columns { get; set; }
         // Slow down frame animation
         private int TimeSinceLastFrame = 0;
         private int MillisecondsPerFrame = 200;
+        public Vector2 Position; //  sprite position on screen
+        public float Speed = 2f; // sprite speed
+        SpriteEffect myEffect;
 
-        public AnimatedSprite(Texture2D texture, int rows, int columns) : base(texture)
+        public AnimatedSprite(Texture2D texture, int rows, int columns)
         {
             Texture = texture;
             Rows = rows;
@@ -46,6 +48,34 @@ namespace ASprite
                     CurrentFrame = 0;
                 }
             }
+
+            // Left
+            if (Keyboard.GetState().IsKeyDown(Keys.Q) ||
+               Keyboard.GetState().IsKeyDown(Keys.Left))
+            {
+                Position.X -= Speed;
+            }
+
+            // Right
+            if (Keyboard.GetState().IsKeyDown(Keys.D) ||
+               Keyboard.GetState().IsKeyDown(Keys.Right))
+            {
+                Position.X += Speed;
+            }
+
+            // Up
+            if (Keyboard.GetState().IsKeyDown(Keys.Z) ||
+               Keyboard.GetState().IsKeyDown(Keys.Up))
+            {
+                Position.Y -= Speed;
+            }
+
+            // Down
+            if (Keyboard.GetState().IsKeyDown(Keys.S) ||
+               Keyboard.GetState().IsKeyDown(Keys.Down))
+            {
+                Position.Y += Speed;
+            }
         }
 
         public void Draw(SpriteBatch spriteBatch, Vector2 location)
@@ -59,7 +89,7 @@ namespace ASprite
             Rectangle destinationRectangle = new Rectangle((int)location.X, (int)location.Y, width, height);
 
             spriteBatch.Begin();
-            spriteBatch.Draw(Texture, destinationRectangle, sourceRectangle, Color.White);
+            spriteBatch.Draw(Texture, Position, sourceRectangle, Color.White);
             spriteBatch.End();
         }
     }
